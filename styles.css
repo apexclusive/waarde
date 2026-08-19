@@ -5,7 +5,8 @@
   --ln:rgba(198,203,209,.18);--hr:rgba(255,255,255,.07);
   --tx:#e4e4e4;--mt:#8a8a8a;
   --sf:'Cormorant Garamond',serif;
-  --ss:'Montserrat',sans-serif;
+  --ss:'DM Sans',sans-serif;
+  --logo:'DM Sans',sans-serif;
   --lb:'Oswald',sans-serif;
   --pd:clamp(1.25rem,5vw,4rem);
   --ch:linear-gradient(100deg,#5a5f65 0%,#e8ecf0 18%,#a0a8b0 36%,#fff 50%,#a0a8b0 64%,#e8ecf0 82%,#5a5f65 100%);
@@ -32,13 +33,10 @@ a{color:inherit;text-decoration:none}
 .ey.tri-in .ey-tri,.ey.tri-in .ey-tri-r{width:42px}
 .ey.c{justify-content:center}
 
-.brand{font-family:var(--sf);letter-spacing:.18em;text-transform:uppercase;white-space:nowrap;display:inline-flex;align-items:center;gap:0;text-decoration:none;color:var(--tx);font-size:1.25rem}
+.brand{font-family:var(--logo);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap;display:inline-flex;align-items:center;gap:0;text-decoration:none;color:var(--tx);font-size:1.08rem}
 .brand-apex{font-weight:600;color:var(--pt);letter-spacing:.22em}
-.brand-sep{display:inline-flex;flex-direction:column;gap:2px;margin:0 8px;flex-shrink:0}
-.brand-sep span{display:block;width:3px;border-radius:1px}
-.brand-sep span:nth-child(1){height:5px;background:var(--ig)}
-.brand-sep span:nth-child(2){height:5px;background:#fff}
-.brand-sep span:nth-child(3){height:5px;background:var(--ir)}
+.brand-sep{display:block;width:1px;height:.66em;margin:0 .5rem;background:rgba(255,255,255,.62);flex-shrink:0}
+.brand-sep span{display:none}
 .brand-excl{font-weight:300;color:rgba(198,203,209,.42);letter-spacing:.22em}
 
 header{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.25rem var(--pd);background:rgba(8,8,8,.94);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-bottom:1px solid var(--ln)}
